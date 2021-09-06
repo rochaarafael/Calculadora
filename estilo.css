@@ -17,7 +17,7 @@ section {
     border-radius: 10px;
     padding: 15px;
     width: 400px;
-    height: 500px;
+    height: 400px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
 }
 #botoes input {
@@ -32,6 +32,15 @@ section {
     border-radius: 10px;
     border: 10px;
     width: 150px;
+    padding: 8px;
+    margin: 5px;
+}
+#res {
+    background:rgb(233, 251, 253);
+    border-radius: 10px;
+    border: 10px;
+    width: 150px;
+    height: 100px;
     padding: 8px;
     margin: 5px;
 }
