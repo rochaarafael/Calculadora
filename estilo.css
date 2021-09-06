@@ -1,19 +1,37 @@
 body {
-    background: rgb(132, 171, 177);
+    background: rgb(35, 41, 59);
     font: normal 15pt Arial;
     color: rgb(191, 213, 216);
     text-align: center;
 
 }
 section {
-    background: rgb(16, 62, 90);
+    background: rgb(5, 28, 43);
     position: absolute;
-    border-radius: 10px;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    padding: 15px;
-    width: 500px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
+
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+}
+#botoes input {
+    background:rgb(42, 60, 63);
+    border-radius: 10px;
+    border: 20px;
+    color:rgb(191, 213, 216);
+
+}
+#numeros input {
+    background:rgb(233, 251, 253);
+    border-radius: 10px;
+    border: 10px;
+    width: 150px;
+    padding: 8px;
+    margin: 5px;
 }
