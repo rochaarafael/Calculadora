@@ -3,44 +3,35 @@ body {
     font: normal 15pt Arial;
     color: rgb(191, 213, 216);
     text-align: center;
+    
 
 }
 section {
     background: rgb(5, 28, 43);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
-
+    width: 300px;
     border-radius: 10px;
     padding: 15px;
-    width: 400px;
-    height: 400px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
 }
 #botoes input {
     background:rgb(42, 60, 63);
     border-radius: 10px;
     border: 20px;
+    margin: 3px;
     color:rgb(191, 213, 216);
 
 }
-#numeros input {
+#numeros input[type = "number"] {
     background:rgb(233, 251, 253);
     border-radius: 10px;
     border: 10px;
     width: 150px;
     padding: 8px;
     margin: 5px;
+    text-align: center;
 }
-#res {
-    background:rgb(233, 251, 253);
-    border-radius: 10px;
-    border: 10px;
-    width: 150px;
-    height: 100px;
-    padding: 8px;
-    margin: 5px;
-}
+ #res {
+     padding: 5px;
+     font: normal 20pt Arial;
+ }
